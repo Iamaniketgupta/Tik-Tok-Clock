@@ -65,10 +65,6 @@ function moveHands() {
   const hr=30*hours+minutes/2;
   const min=6*minutes;
   const sec=6*seconds;
-  //-----Alternate Method------>>
-  // const secondsRatio = seconds / 60;
-  // const minutesRatio = (secondsRatio + minutes) / 60;
-  // const hoursRatio = (minutesRatio + hours) / 12;
   secondsHand.style.transform = `rotate(${sec}deg)`;
   minuteHand.style.transform = `rotate(${min}deg)`;
   hourHand.style.transform = `rotate(${hr}deg)`;
