@@ -113,9 +113,6 @@ body {
   transition: transform 0.5s ease-in-out;
 }
 
-
-
-
 /* Styling the clock changer button */
 .Clock-Changer {
   display: block;
@@ -133,8 +130,6 @@ body {
 .Clock-Changer:hover {
   background-color: #555;
 }
-
-
 body {
   display: flex;
   overflow-y: hidden; 
